@@ -1,0 +1,40 @@
+OESTECAR MECÂNICA — SITE ONE PAGE
+=================================
+
+CONTEÚDO
+- index.html — página institucional completa
+- css/style.css — layout responsivo, cores e animações
+- js/main.js — menu mobile, link de serviços para WhatsApp, destaques de navegação, animação ao rolar
+- assets/img/ — imagem original da fachada, imagem hero montada a partir dela, logo extraída do print de Instagram enviado, imagem ilustrativa do interior e imagem de compartilhamento
+- assets/icons/ — ícones SVG locais do WhatsApp e Instagram
+- favicon.png — ícone do navegador
+- docs/layout-aprovado.png — imagem de referência aprovada na conversa
+
+COMO ABRIR
+Abra index.html em um navegador. Não precisa instalar nada, nem usar Node.js ou terminal.
+A única parte que necessita de internet é o mapa do Google (e, naturalmente, abrir links externos de WhatsApp, Google e Instagram).
+
+COMO PUBLICAR
+Envie TODO o conteúdo desta pasta para o diretório raiz da hospedagem (ou para um repositório do GitHub Pages) mantendo a organização dos arquivos. Não hospede apenas index.html isoladamente.
+
+CONTATO NO SITE
+WhatsApp: (45) 99156-9797 → wa.me/5545991569797
+Instagram: https://www.instagram.com/mecanica.oestecar/
+
+PENDÊNCIAS ANTES DE PUBLICAR PARA O CLIENTE
+1) ENDEREÇO: Instagram exibe Rua São Gabriel, 671; a ficha do Google referente à Oeste Car Mecânica aponta Rua José Bonifácio, 888 (São Cristóvão); a foto enviada mostra número 888. Para evitar direcionar visitantes ao endereço incorreto, esta prévia usa o endereço da ficha Google, que DEVE ser confirmado diretamente com o proprietário. Ao corrigir, atualize o endereço visível no HTML, a URL do iframe, os links do Maps e o JSON-LD no <head>.
+2) FOTOS: a FOTO DA FACHADA fornecida pelo usuário é real. A imagem 'oficina-ilustrativa.webp' foi EXTRAÍDA DA IMAGEM-CONCEITO APROVADA e NÃO deve ser apresentada como foto real da empresa; está identificada como ilustrativa no site. Substitua pela foto real da equipe ou do interior antes de publicar.
+3) LOGO: 'logo-original-perfil.png' foi recortada diretamente do print do Instagram enviado pelo usuário. É uma reprodução de baixa resolução (original perfil), adequada à prévia. Solicite ao proprietário PNG transparente ou SVG em alta qualidade para publicação definitiva.
+4) AVALIAÇÕES: a nota 4,8/5 e 18 avaliações foi confirmada na ficha de negócios, em novembro de 2026. Os depoimentos são curtos trechos reais encontrados na ficha, SEM atribuição a nomes inventados. Atualize nota, quantidade e textos caso mudem.
+5) SERVIÇOS: injeção eletrônica, suspensão, motor, caixa e freios aparecem no letreiro fotografado; confirme detalhes de cada serviço antes de publicar. Textos são institucionais e não oferecem preços nem garantias não verificadas.
+6) HORÁRIOS: omitidos por não terem sido confirmados com a oficina.
+7) SEO: após definir o domínio, atualize os meta OG para URL absoluta, adicione canonical, sitemap e confirme o endereço no JSON-LD.
+
+LICENÇAS / ORIGEM DOS ELEMENTOS VISUAIS
+- Fachada e recorte do logo: fornecidos pelo usuário nesta conversa para produção da prévia comercial. Confirmar autorização da empresa para uso público.
+- Oficina ilustrativa: recorte da imagem-conceito criada previamente nesta conversa; NÃO representa necessariamente a oficina verdadeira.
+- Ícones SVG: vetores embutidos localmente, sem dependência de CDN.
+
+DESIGN
+Paleta: preto #090b0d, dourado #f1b928, branco #f5f5f2.
+Site estático, sem backend, banco de dados ou painel administrativo (não necessários para esta proposta one page).
